@@ -1,0 +1,16 @@
+ ImageMagick
+
+The default version of ImageMagick on the student machines is pretty old. To use a more recent version of ImageMagick, add the following directory to your PATH environmental variable:
+
+~ccl/software/external/imagemagick/bin
+In csh, you would do:
+
+$ setenv PATH ~ccl/software/external/imagemagick/bin:$PATH
+In bash, you would do:
+
+$ export PATH=~ccl/software/external/imagemagick/bin:$PATH
+In Python, you would do:
+
+import os
+os.environ['PATH'] = '~ccl/software/external/imagemagick/bin:' + os.environ['PATH']
+Once the PATH is updated, you should be able to run composite -version and see ImageMagick 6.6.4-2.

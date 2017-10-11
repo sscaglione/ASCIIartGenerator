@@ -1,0 +1,4 @@
+
+3/18 - Began research into C++ networking (Aman, 1 hr)
+3/19 - Checked for the existence of a Python/C++ API (Aman, 0.5 hr)
+3/20 - Wrote the start of a simple library to embed python code in C++, wrote a sample python script which downloads a resource from a provided URL, wrote test programs for these, set up development environment (Aman, 5 hrs)

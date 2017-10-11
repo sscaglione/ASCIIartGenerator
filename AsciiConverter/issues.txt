@@ -1,0 +1,4 @@
+resizing
+converting ascii text to image (jpg or png)
+gui
+google search
